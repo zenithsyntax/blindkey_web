@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlindKey - Elite Privacy, Seamlessly Secured</title>
+  <meta name="description"
+    content="BlindKey allows users to create private, password-protected vaults on their device. Secure file storage, sharing, and viewing with total control.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <img src="assets/blindkey_logo.png" alt="BlindKey Logo">
+        BlindKey
+      </a>
+      <nav class="nav-links">
+        <a href="#problem">Problem</a>
+        <a href="#features">Features</a>
+        <a href="#sharing">Secure Sharing</a>
+        <a href="#privacy">Privacy</a>
+      </nav>
+      <a href="#download" class="btn btn-outline"
+        style="border-radius: 50px; padding: 10px 24px; font-size: 0.9rem;">Download App</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <h1 class="animate-on-scroll">Elite Privacy.<br><span class="t-gradient">Seamlessly Secured.</span></h1>
+      <p class="hero-subtitle animate-on-scroll delay-100">Protect your files even when your phone is no longer fully
+        under your control.</p>
+      <div class="cta-group animate-on-scroll delay-200">
+        <a href="#download" class="btn btn-primary"><i class="fa-brands fa-android" style="margin-right: 10px;"></i>Get
+          BlindKey</a>
+        <button onclick="openUserGuide()" class="btn btn-outline" style="margin-left: 15px;"><i class="fa-solid fa-play"
+            style="margin-right: 8px;"></i> Watch Guide</button>
+      </div>
+    </div>
+    <a href="#problem" class="scroll-down">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- Problem Section -->
+  <section id="problem">
+    <div class="container">
+      <div class="section-title animate-on-scroll">
+        <span class="feature-tag">The Problem</span>
+        <h2>Why BlindKey?</h2>
+        <p>Unlike basic file-hiding apps, BlindKey ensures files remain protected even if someone gains temporary access
+          to your device.</p>
+      </div>
+
+      <div class="card-grid">
+        <div class="card animate-on-scroll delay-100">
+          <div class="card-icon"><i class="fa-solid fa-user-shield"></i></div>
+          <h3>Beyond Gallery Locks</h3>
+          <p>Designed for real-world risks. Protects against forced access, repairs, and shared devices.</p>
+        </div>
+        <div class="card animate-on-scroll delay-200">
+          <div class="card-icon"><i class="fa-solid fa-file-contract"></i></div>
+          <h3>Total Ownership</h3>
+          <p>Files are stored locally. No cloud, no developer access, no backups. You are the only key.</p>
+        </div>
+        <div class="card animate-on-scroll delay-300">
+          <div class="card-icon"><i class="fa-solid fa-clock"></i></div>
+          <h3>Time-Limited Access</h3>
+          <p>Share files that self-destruct. Set expiry dates and revoke access automatically.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Concept: Secure Vaults -->
+  <section id="features" style="background-color: var(--surface-color);">
+    <div class="container">
+      <div class="split-section animate-on-scroll">
+        <div>
+          <span class="feature-tag">Core Concept</span>
+          <h2>Secure Vaults</h2>
+          <p>BlindKey allows users to create private, password-protected vaults on their device. Each vault is strictly
+            isolated.</p>
+
+          <ul class="feature-list">
+            <li>Each vault protected by a unique password</li>
+            <li>Files accessible only within the app</li>
+            <li>Auto-lock when app is backgrounded</li>
+            <li>Organize: Personal, Work, Shared content</li>
+            <li>Viewer support: Photos, Videos, Documents (PDF)</li>
+          </ul>
+        </div>
+        <!-- Ideally an image here, using a placeholder card for now -->
+        <!-- App Screenshot -->
+        <div class="animate-on-scroll delay-200" style="position: relative;">
+          <div style="position: absolute; inset: 0; background: var(--primary-red); filter: blur(60px); opacity: 0.15;">
+          </div>
+          <img src="assets/app_screenshot.png" alt="BlindKey App Interface"
+            style="width: 100%; border-radius: 20px; border: 1px solid var(--card-border); box-shadow: 0 20px 50px rgba(0,0,0,0.5); position: relative; z-index: 2; transform: perspective(1000px) rotateY(-5deg) rotateX(5deg); transition: transform 0.5s ease;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Secure Sharing -->
+  <section id="sharing">
+    <div class="container">
+      <div class="section-title animate-on-scroll">
+        <span class="feature-tag">Controlled Sharing</span>
+        <h2>Share with Confidence</h2>
+        <p>BlindKey introduces the <strong>.blindkey</strong> format. You decide how recipients use your files.</p>
+      </div>
+
+      <div class="card-grid">
+        <div class="card animate-on-scroll delay-100">
+          <div class="card-icon"><i class="fa-solid fa-sliders"></i></div>
+          <h3>Granular Permissions</h3>
+          <p>Before sending, decide if the recipient can:</p>
+          <ul class="feature-list" style="margin-top: 10px;">
+            <li>Re-share the file</li>
+            <li>Open in external apps</li>
+            <li>Save to device storage</li>
+          </ul>
+        </div>
+
+        <div class="card animate-on-scroll delay-200">
+          <div class="card-icon"><i class="fa-solid fa-stopwatch"></i></div>
+          <h3>Expiry-Based Access</h3>
+          <p>Set a specific date and time for a shared file to expire. Once expired, access is automatically revoked and
+            the file is deleted.</p>
+        </div>
+
+        <div class="card animate-on-scroll delay-300">
+          <div class="card-icon"><i class="fa-solid fa-ban"></i></div>
+          <h3>Allow Extraction Mode</h3>
+          <p><strong>OFF:</strong> File is view-only inside BlindKey. No saving, no sharing.<br>
+            <strong>ON:</strong> Recipient has full control (download, share, open externally).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical/Privacy Details -->
+  <section id="privacy" style="background-color: var(--surface-color);">
+    <div class="container">
+      <div class="split-section animate-on-scroll">
+        <div class="card animate-on-scroll delay-100">
+          <h3><i class="fa-solid fa-wifi" style="color: var(--primary-red); margin-right: 12px;"></i> Verified Access
+          </h3>
+          <p>Internet is required only when opening <strong>shared files with expiry dates</strong>. This prevents
+            device time manipulation and ensures rules are enforced. Your personal local vaults work 100% offline.</p>
+        </div>
+        <div class="animate-on-scroll delay-200">
+          <span class="feature-tag">Privacy First</span>
+          <h2>Strict No-Cloud Policy</h2>
+          <p>BlindKey is built with a zero-knowledge philosophy:</p>
+          <ul class="feature-list">
+            <li>Files stored locally on device</li>
+            <li>No cloud sync or backup</li>
+            <li>No password recovery</li>
+            <li>No analytics or data collection</li>
+          </ul>
+          <p
+            style="margin-top: 24px; font-size: 0.95rem; color: #ff6b6b; background: rgba(255,107,107,0.1); padding: 16px; border-radius: 8px; border-left: 4px solid #ff6b6b;">
+            <i class="fa-solid fa-triangle-exclamation" style="margin-right: 8px;"></i> Warning: Passwords cannot be
+            recovered if lost. You are
+            responsible for your keys.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download / Footer CTA -->
+  <section id="download"
+    style="text-align: center; background: radial-gradient(circle at center, #1a0505 0%, #000000 100%); padding: 160px 0;">
+    <div class="container animate-on-scroll">
+      <h2 style="font-size: 3.5rem; margin-bottom: 24px;">Take Control Today</h2>
+      <p style="max-width: 600px; margin: 0 auto 48px auto;">BlindKey is not just a gallery hider. It is a professional
+        privacy tool for when control matters most.</p>
+      <a href="#" class="btn btn-primary" style="padding: 16px 56px; font-size: 1.2rem; border-radius: 50px;"><i
+          class="fa-brands fa-google-play" style="margin-right: 12px;"></i>Download for Android</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <a href="#" class="footer-logo">BlindKey</a>
+          <p style="font-size: 1rem; max-width: 300px;">Elite Privacy, Seamlessly Secured.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Legals</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Open Source Licenses</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:support@blindkey.app">support@blindkey.app</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2026 Zenith Syntax. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- User Guide Modal -->
+  <div class="modal-backdrop" id="userGuideModal">
+    <div class="modal-content">
+      <div class="video-container">
+        <!-- Placeholder Video - user can replace ID -->
+        <iframe id="guideVideo" src="https://www.youtube.com/embed/z_7ksHmG91s?enablejsapi=1"
+          title="BlindKey User Guide"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+      <div class="modal-body">
+        <h3 class="modal-title">Welcome to BlindKey!</h3>
+        <p class="modal-desc">Watch this short video to learn how to secure your files.</p>
+
+        <div class="modal-actions">
+          <button class="btn btn-ghost" onclick="closeModal()">Skip</button>
+          <button class="btn btn-primary btn-modal-full" onclick="closeModal(); document.location.href='#features'">Full
+            Guide</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script>
+    // Use a function to open the modal
+    function openUserGuide() {
+      document.getElementById('userGuideModal').classList.add('active');
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('userGuideModal');
+      modal.classList.remove('active');
+
+      // Stop video when closing (reset src)
+      const iframe = document.getElementById('guideVideo');
+      const tempSrc = iframe.src;
+      iframe.src = '';
+      iframe.src = tempSrc;
+    }
+
+    // Close on clicking backdrop
+    document.getElementById('userGuideModal').addEventListener('click', (e) => {
+      if (e.target === document.getElementById('userGuideModal')) {
+        closeModal();
+      }
+    });
+
+    // Simple scroll animation script
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+
+      document.querySelectorAll('.animate-on-scroll').forEach((el) => {
+        observer.observe(el);
+      });
+    });
+  </script>
+</body>
+
+</html>
