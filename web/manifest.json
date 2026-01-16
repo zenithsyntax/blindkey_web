@@ -1,11 +1,11 @@
 {
-    "name": "blindkey_web",
-    "short_name": "blindkey_web",
+    "name": "BlindKey - Secure File Vault",
+    "short_name": "BlindKey",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#121212",
+    "theme_color": "#B71C1C",
+    "description": "BlindKey by Zenith Syntax: Elite privacy and secure file vault for Android.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
